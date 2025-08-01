@@ -1,0 +1,30 @@
+.home {
+  background-image: url(../../assets/images/dark-background.jpg);
+
+  width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.home-content {
+  width: 55%;
+}
+
+@media screen and (max-width: 980px) {
+  .home {
+    justify-content: center;
+
+    padding: 20px;
+  }
+
+  .home-content {
+    width: 90%;
+  }
+
+  .home-content h1 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,21 @@
+
+.my-nav{
+    background-color:transparent;
+    color: white;
+    width: 100%;
+    
+    
+}
+
+.nav-link.active{
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+
+
+
+.my-nav.scrolled {
+  background-color:var(--background-color); 
+   
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
